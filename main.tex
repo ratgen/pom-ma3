@@ -8,9 +8,10 @@
 \usepackage{listings} %for source code snippets
 \usepackage{textcomp} %for upquote
 \usepackage{xcolor} % nice colors (for source code)
+\usepackage{comment}
 
-\usepackage{biblatex}
-\addbibresource{mybibliography.bib}
+\usepackage[citestyle=ieee]{biblatex}
+\addbibresource{pom-mandatory-assignment/mybibliography.bib}
 
 
 \renewcommand{\ttdefault}{pcr} % nicer font for source code
@@ -30,12 +31,12 @@
 %
 \begin{document}
 
-\input{frontpage}
+\input{pom-mandatory-assignment/frontpage}
 
 \newpage
 
 %\input{assignment.tex}
-\input{case_analysis.tex}
+\input{pom-mandatory-assignment/case_analysis.tex}
 
 %\appendix
 
